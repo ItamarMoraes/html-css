@@ -1,0 +1,1 @@
+Este projeto foi idealizado com a intenção de estudos em HTML e CSS.
