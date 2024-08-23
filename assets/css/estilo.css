@@ -8,28 +8,41 @@ header {
     display: flex;
     align-items: last baseline;
     justify-content: space-between;
-    background-color: chocolate;
-    color: black;
+    background-color: rgb(0, 0, 34);
+    color: rgb(255, 255, 255);
     padding: 10px;
     position: relative;
 }
 
 header li {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    height: 20px;
     list-style: none;
+    /* border: 1px solid yellow; */
 }
 
 header a {
-    padding: 0.2rem;
-    margin: 0.3rem;
+    /* border: 1px solid red; */
+    width: 100px;
+    text-align: center;
+    /* padding: 0.2rem;
+    margin: 0.3rem; */
     border-radius: 0.3rem;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 header a:hover {
-    text-shadow: .1rem .1rem .1rem black;
+    font-weight: 500;
+    /* text-shadow: .05rem .05rem .05rem rgb(255, 255, 255); */
 }
 
 .titCbc {
-    text-shadow: .05rem .05rem .05rem black;
+    text-shadow: .02rem .02rem .02rem rgb(255, 255, 255);
+}
+
+.titCbc h3 {
+    font-weight: 300;
 }
