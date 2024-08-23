@@ -1,4 +1,35 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: ubuntu;
+}
+
+header {
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    background-color: chocolate;
+    color: black;
+    padding: 10px;
+    position: relative;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    padding: 0.2rem;
+    margin: 0.3rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-shadow: .1rem .1rem .1rem black;
+}
+
+.titCbc {
+    text-shadow: .05rem .05rem .05rem black;
 }
