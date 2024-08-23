@@ -1,4 +1,59 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: ubuntu;
+}
+
+header {
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 34);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: relative;
+}
+
+header li {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    height: 20px;
+    list-style: none;
+    /* border: 1px solid yellow; */
+}
+
+header a {
+    /* border: 1px solid red; */
+    width: 100px;
+    text-align: center;
+    /* padding: 0.2rem;
+    margin: 0.3rem; */
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover {
+    font-weight: 500;
+    /* text-shadow: .05rem .05rem .05rem rgb(255, 255, 255); */
+}
+
+.titCbc {
+    text-shadow: .02rem .02rem .02rem rgb(255, 255, 255);
+}
+
+.titCbc h3 {
+    font-weight: 300;
+}
+
+.topo {
+    margin: 1rem;
+    text-align: center;
+}
+
+.conteudoPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
